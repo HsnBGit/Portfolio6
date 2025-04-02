@@ -1,0 +1,81 @@
+.profile{
+    text-align: center;
+    font-size: 20px;
+
+}
+.profile .con{
+    width: 40px;
+    height: 40px;
+    transition: transform 0.5s, border-color 0.5s, background-color 0.5s;
+    margin-bottom: -15px;
+    margin-left: 10px;
+}
+
+.profile ul .con {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--accent-04);
+}
+
+.profile ul .con:hover {
+    border-color: #D5F3F9;
+    transform: scale(1.2);
+}
+
+.profile .con:hover {
+    transform: scale(1.2);
+    background-color: var(--primary-color);
+}
+
+.profile table .con{
+    padding: 5px;
+    border-radius: 10px;
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+.profile td:hover .con{
+    background-color: var(--primary-color);
+    transform: scale(1.2);
+}
+
+
+.profile .header{
+    max-height: 40vh;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    clip-path: polygon(100% 0, 100% 80%, 80% 100%, 20% 100%, 0 80%, 0 0 );  
+}
+
+.profile .img{
+    width: 140px;
+    position: relative;
+    margin: -60px auto 0;
+    border: var(--accent-04) 8px solid;
+    border-radius: 35px;
+
+}
+
+.profile p {
+    margin-top: 10px;
+    height: 20px;
+
+}
+
+.profile ul{
+    list-style-type: none;
+    margin: 20px 0 80px 0;
+}
+
+.profile ul li{
+    display: inline;
+}
+
+.profile .footer{
+    position: sticky;
+    top: calc(100vh -100px);
+}
+
+.profile table{
+    width: 100%;
+    padding-bottom: 15px;
+}
